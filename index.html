@@ -2,7 +2,164 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div class="page-top animated fadeInDown"><div class="nav"><li> <a class="current" href="/">Home</a></li><li> <a href="/archives">Archives</a></li><li> <a href="/tags">Tags</a></li><li> <a href="/about">About</a></li><li> <a href="/links">Links</a></li></div><div class="information"><div class="nav_right_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li><li><a class="fa fa-search" onclick="openWindow();"></a></li></div><div class="avatar"><img src="/images/logo.webp"></div></div></div><div class="sidebar animated fadeInDown"><div class="sidebar-top"><div class="logo-title"><div class="title"><img src="/images/logo@2x.webp" style="width:220px;" alt="favicon"><h3 title=""><a href="/">Colin's Page</a></h3><div class="description"><p>A place to record techniques and thoughts</p></div></div><ul class="social-links"><li><a target="_blank" rel="noopener" href="https://github.com/liu-ya20"><i class="fa fa-github"></i></a></li><li><a href="mailto:liu-ya20@mails.tsinghua.edu.cn"><i class="fa fa-envelope"></i></a></li></ul></div></div><div class="footer"><div class="p"> <span> 全站CC-BY-SA-3.0 </span><i class="fa fa-star"></i><span> Colin</span></div><div class="by_farbox"><span>Powered by </span><a href="https://hexo.io/zh-cn/" target="_blank">Hexo </a><span> & </span><span>Anatolo </span></div><div class="beian"></div></div></div><div class="main"><div class="autopagerize_page_element"><div class="content"><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/06/29/Words/">Words</a></h3></div><div class="post-content"><div class="card"><p><h2 id="Words-23-x2F-6-x2F-29"><a href="#Words-23-x2F-6-x2F-29" class="headerlink" title="Words  23&#x2F;6&#x2F;29"></a>Words  23&#x2F;6&#x2F;29</h2><ul>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div class="page-top animated fadeInDown"><div class="nav"><li> <a class="current" href="/">Home</a></li><li> <a href="/archives">Archives</a></li><li> <a href="/tags">Tags</a></li><li> <a href="/about">About</a></li><li> <a href="/links">Links</a></li></div><div class="information"><div class="nav_right_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li><li><a class="fa fa-search" onclick="openWindow();"></a></li></div><div class="avatar"><img src="/images/logo.webp"></div></div></div><div class="sidebar animated fadeInDown"><div class="sidebar-top"><div class="logo-title"><div class="title"><img src="/images/logo@2x.webp" style="width:220px;" alt="favicon"><h3 title=""><a href="/">Colin's Page</a></h3><div class="description"><p>A place to record techniques and thoughts</p></div></div><ul class="social-links"><li><a target="_blank" rel="noopener" href="https://github.com/liu-ya20"><i class="fa fa-github"></i></a></li><li><a href="mailto:liu-ya20@mails.tsinghua.edu.cn"><i class="fa fa-envelope"></i></a></li></ul></div></div><div class="footer"><div class="p"> <span> 全站CC-BY-SA-3.0 </span><i class="fa fa-star"></i><span> Colin</span></div><div class="by_farbox"><span>Powered by </span><a href="https://hexo.io/zh-cn/" target="_blank">Hexo </a><span> & </span><span>Anatolo </span></div><div class="beian"></div></div></div><div class="main"><div class="autopagerize_page_element"><div class="content"><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/07/04/toread/">toread</a></h3></div><div class="post-content"><div class="card"><p><h2 id="进度总结"><a href="#进度总结" class="headerlink" title="进度总结"></a>进度总结</h2><h3 id="当前music相关的研究方向"><a href="#当前music相关的研究方向" class="headerlink" title="当前music相关的研究方向"></a>当前music相关的研究方向</h3><ul>
+<li><h4 id="Generation-生成相关"><a href="#Generation-生成相关" class="headerlink" title="Generation 生成相关"></a>Generation 生成相关</h4><ul>
+<li><p>结合文本生成音乐： MusicLM</p>
+</li>
+<li><p>根据情感、速度、调式的要求生成音乐（大量商业化软件）</p>
+<ul>
+<li><p>Amper music</p>
+</li>
+<li><p>AIVA</p>
+</li>
+<li><p>Soundraw</p>
+</li>
+<li><p>MuseNet</p>
+</li>
+<li><p>Jukebox（可以生成singing)</p>
+<p>特点：生成midi格式辅助创作</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h4 id="音乐信息检索相关"><a href="#音乐信息检索相关" class="headerlink" title="音乐信息检索相关"></a>音乐信息检索相关</h4><ul>
+<li>对节拍、乐曲行进速度、乐曲风格等音乐的元数据进行估计&#x2F;分类</li>
+<li>音频指纹技术，利用片段查询音乐</li>
+<li>模式匹配和检测，如检测复调乐曲中的重复模式</li>
+</ul>
+</li>
+</ul>
+<h2 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h2><ul>
+<li><h4 id="Generation方向（数据集多为midi格式-总量小）"><a href="#Generation方向（数据集多为midi格式-总量小）" class="headerlink" title="Generation方向（数据集多为midi格式, 总量小）"></a>Generation方向（数据集多为midi格式, 总量小）</h4><ul>
+<li>[Lakh](<a target="_blank" rel="noopener" href="https://colinraffel.com/projects/lmd/%EF%BC%89">https://colinraffel.com/projects/lmd/）</a></li>
+<li>Nottingham Database</li>
+<li>ADL PianoMiDi</li>
+<li>GiantMiDi-Piano</li>
+</ul>
+</li>
+<li><h4 id="音乐信息检索-数据多为音频格式（-csv-，总量大"><a href="#音乐信息检索-数据多为音频格式（-csv-，总量大" class="headerlink" title="音乐信息检索(数据多为音频格式（.csv)，总量大)"></a>音乐信息检索(数据多为音频格式（.csv)，总量大)</h4><ul>
+<li><a target="_blank" rel="noopener" href="http://millionsongdataset.com/">Million Song Dataset</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification">GTZAN Dataset</a></li>
+<li><a target="_blank" rel="noopener" href="http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html">Ballroom</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/mdeff/fma">Free Music Archive(FMA)</a></li>
+<li><a target="_blank" rel="noopener" href="https://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset">MagnaTagATune</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="阅读论文"><a href="#阅读论文" class="headerlink" title="阅读论文"></a>阅读论文</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2108.12290.pdf">MUSIC COMPOSITION WITH DEEP LEARNING: A REVIEW</a></p>
+<ul>
+<li><p>音乐创作由基于算法规则的创作在21世纪转向基于深度学习的创作</p>
+<ul>
+<li>algorithmic composition方法<ul>
+<li>马尔科夫模型</li>
+<li>生成式语法</li>
+<li>元胞自动机</li>
+<li>遗传算法</li>
+<li>转移网络</li>
+</ul>
+</li>
+<li>DL方法<ul>
+<li>transformer</li>
+<li>Variational AutoEncoders(MusicVAE)</li>
+<li>生成式对抗模型GAN</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>音乐创作的元素和结构</p>
+<ul>
+<li>音符(note) to 动机(motif) to 乐句(phrase) to 旋律(melody) to 主题(theme)</li>
+<li>规则<ul>
+<li>多乐器多声部：需要和声和谐（harmony)</li>
+<li>速度一致</li>
+<li>调式一致</li>
+</ul>
+</li>
+<li>配器之间的和谐：orchestration</li>
+</ul>
+</li>
+<li><p>DL 方法创作发展：</p>
+<ul>
+<li>2016：RNN, 生成短旋律</li>
+<li>2017：DeepBach 生成四声部赞美诗</li>
+<li>2018： MusicVAE: 主旋律+贝斯+鼓点，（训练于Lakh)<ul>
+<li>Music Transformer 、 MuseNet（2019）, 由于引入注意力机制，生成更长的旋律序列</li>
+</ul>
+</li>
+<li>2020-2021：TransformerVAE、PianoTree、 DDPMs(Denoising Diffusion Probabilistic Models)based models</li>
+</ul>
+</li>
+<li><p>和声创作方向：</p>
+<ul>
+<li>MSMICA(2020): 生成多声部和声</li>
+</ul>
+</li>
+<li><p>基于给定片段or动机创作：</p>
+</li>
+<li><p>全流程创作：ChordAL</p>
+</li>
+<li><p>模型评估（音乐方向）</p>
+<p>评估方法大体分为：音高相关、节奏相关、和声相关、风格转移相关。与音高相关的指标[67]，如音阶一致性、垃圾音调、空条的比率或使用的音高类别的数量，是衡量音高属性的一般指标。与节奏相关的指标考虑了音符的持续时间或模式，例如节奏变化、并发三个或四个音符的数量或重复音高的持续时间。与和声相关的指标测量和弦熵、距离或覆盖范围。这三个指标类别被MuseGAN [62]，C-RNN-GAN [70]或JazzGAN [49]等模型使用。</p>
+</li>
+</ul>
+</li>
+<li><p><a href>A systematic review of artificial intelligence-based music generation: Scope, applications, and future trends</a></p>
+</li>
+<li><p>THE POWER OF DEEP WITHOUT GOING DEEP? A STUDY OF HDPGMM MUSIC REPRESENTATION LEARNING</p>
+<ul>
+<li><p>HDPGMM模型（hierarchical Dirichlet Process Gaussian Mixture Model), 应用于音乐信息检索的子问题中，如分类、打标签、推荐算法</p>
+</li>
+<li><p>分层DP（HDP）是DP的扩展，通过将源自语料库级DP的组级DP强加为全局组件池来对分组进行建模</p>
+</li>
+<li><p>使用Million Song Dataset进行representation learning, 对于三个子任务分别使用不同数据集学习the evaluation of the representation</p>
+</li>
+<li><p>评估方法：</p>
+<ul>
+<li><p>Normalized Discounted Cumulative Gain（nDCG) 在推荐任务上</p>
+</li>
+<li><p>F1 Score 在分类任务上</p>
+</li>
+<li><p>[AUROC](<a target="_blank" rel="noopener" href="http://wkunblog.com/2021/10/20/%E4%BA%8C%E5%88%86%E7%B1%BB%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87AUROC-AUPRC/">二分类评价指标AUROC&#x2F;AUPRC | Kevin’s Blog (wkunblog.com)</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="论文list"><a href="#论文list" class="headerlink" title="论文list"></a>论文list</h3><ul>
+<li><p>[POP MUSIC GENERATION WITH CONTROLLABLE PHRASE LENGTHS](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_322.html">ISMIR 2022: Pop Music Generation with Controllable Phrase Lengths</a>)</p>
+</li>
+<li><p>[Exploiting Pre-trained Feature Networks for Generative Adversarial Networks in Audio-domain Loop Generation](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_169.html">ISMIR 2022: Exploiting Pre-trained Feature Networks for Generative Adversarial Networks in Audio-domain Loop Generation</a>)</p>
+</li>
+<li><p>[Modeling the rhythm from lyrics for melody generation of pop songs](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_306.html">ISMIR 2022: Modeling the rhythm from lyrics for melody generation of pop songs</a>)</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2301.11325">MusicLM: Generating Music From Text</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2005.00341">Jukebox: A Generative Model for Music</a></p>
+</li>
+<li><p>[Symbolic Music Loop Generation with Neural Discrete Representations](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_66.html">ISMIR 2022: Symbolic Music Loop Generation with Neural Discrete Representations</a>)</p>
+</li>
+<li><p>[Jukedrummer: Conditional Beat-aware Audio-domain Drum Accompaniment Generation via Transformer VQ-VAE](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_164.html">ISMIR 2022: Jukedrummer: Conditional Beat-aware Audio-domain Drum Accompaniment Generation via Transformer VQ-VAE</a>)</p>
+</li>
+<li><p>[Domain Adversarial Training on Conditional Variational Auto-Encoder for Controllable Music Generation](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_73.html">ISMIR 2022: Domain Adversarial Training on Conditional Variational Auto-Encoder for Controllable Music Generation</a>)</p>
+</li>
+<li><p>[What is missing in deep music generation? A study of repetition and structure in popular music](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/papers.html?filter=titles&search=Generation">ISMIR 2022: Papers</a>)</p>
+</li>
+<li><p>[AccoMontage: Accompaniment Arrangement via Phrase Selection and Style Transfer](<a target="_blank" rel="noopener" href="https://ismir2021.ismir.net/papers/">Accepted Papers | ISMIR 2021</a>)</p>
+</li>
+<li><p>[Symphony Generation with Permutation Invariant Language Model]([<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2205.05448">2205.05448] Symphony Generation with Permutation Invariant Language Model (arxiv.org)</a>)</p>
+</li>
+</ul>
+<hr>
+<h2 id="survey-过程梳理"><a href="#survey-过程梳理" class="headerlink" title="survey 过程梳理"></a>survey 过程梳理</h2><h4 id="读综述博客了解研究发展水平"><a href="#读综述博客了解研究发展水平" class="headerlink" title="读综述博客了解研究发展水平"></a>读综述博客了解研究发展水平</h4><ul>
+<li>2020年底：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/392893704">【中英对照】Representation Learning for Controllable Music Generation: A Survey 用于可控音乐生成的表示学习方法：综述 - 知乎 (zhihu.com)</a></li>
+</ul>
+<h4 id="整理进行相关研究的实验室，以及实验室动态、tutorial"><a href="#整理进行相关研究的实验室，以及实验室动态、tutorial" class="headerlink" title="整理进行相关研究的实验室，以及实验室动态、tutorial"></a>整理进行相关研究的实验室，以及实验室动态、tutorial</h4><ul>
+<li>C4DM</li>
+</ul>
+<h4 id="通览论文，找到使用什么方法解决了什么问题，仍然存在什么问题"><a href="#通览论文，找到使用什么方法解决了什么问题，仍然存在什么问题" class="headerlink" title="通览论文，找到使用什么方法解决了什么问题，仍然存在什么问题"></a>通览论文，找到使用什么方法解决了什么问题，仍然存在什么问题</h4></p></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-07-04</span><i class="fa fa-tag"></i><a class="tag" href="/tags/MIR/" title="MIR">MIR </a><span class="leancloud_visitors"></span><span>About 1147 words, 3 min 49 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/06/30/CodingOJ/">CodingOJ</a></h3></div><div class="post-content"><div class="card"><p></p></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-06-30</span><i class="fa fa-tag"></i><a class="tag" href="/tags/OJ/" title="OJ">OJ </a><span class="leancloud_visitors"></span><span>About 0 words, 0 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/06/29/Words/">Words</a></h3></div><div class="post-content"><div class="card"><p><h2 id="Words-23-x2F-6-x2F-29"><a href="#Words-23-x2F-6-x2F-29" class="headerlink" title="Words  23&#x2F;6&#x2F;29"></a>Words  23&#x2F;6&#x2F;29</h2><ul>
 <li><p>proportion n. 均衡；相称，协调&#x2F;一物与他物在数量、大小等方面的关系；比例部分；份儿</p>
 </li>
 <li><p>symmetric adj. 相称性的,均衡的</p>
@@ -19,8 +176,14 @@
 </li>
 <li><p>cadence n.节奏、韵律</p>
 </li>
+<li><p>algorithmic adj. 算法的，规则系统的</p>
+</li>
+<li><p>succession n. 连续不断</p>
+</li>
+<li><p>indefinitely adv. 无限期地</p>
+</li>
 </ul>
-</p></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-06-29</span><i class="fa fa-tag"></i><a class="tag" href="/tags/English/" title="English">English </a><span class="leancloud_visitors"></span><span>About 98 words, 19 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/06/28/Research/">Research</a></h3></div><div class="post-content"><div class="card"><p><h2 id="DAY-1"><a href="#DAY-1" class="headerlink" title="DAY 1"></a>DAY 1</h2><hr>
+</p></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-06-29</span><i class="fa fa-tag"></i><a class="tag" href="/tags/English/" title="English">English </a><span class="leancloud_visitors"></span><span>About 121 words, 24 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/06/28/Research/">Research</a></h3></div><div class="post-content"><div class="card"><p><h2 id="DAY-1"><a href="#DAY-1" class="headerlink" title="DAY 1"></a>DAY 1</h2><hr>
 <h3 id="Articles-to-read"><a href="#Articles-to-read" class="headerlink" title="Articles to read"></a>Articles to read</h3><h4 id="Music-Generation"><a href="#Music-Generation" class="headerlink" title="Music Generation"></a>Music Generation</h4><ul>
 <li><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2301.11325">MusicLM: Generating Music From Text</a><ul>
 <li>time: Jan 2023</li>
@@ -139,7 +302,8 @@
 <h3 id="GiantMIDI-Piano-Bytedance"><a href="#GiantMIDI-Piano-Bytedance" class="headerlink" title="GiantMIDI-Piano ( Bytedance )"></a><a target="_blank" rel="noopener" href="https://github.com/bytedance/GiantMIDI-Piano">GiantMIDI-Piano ( Bytedance )</a></h3><ul>
 <li>classical piano MIDI dataset contains 10,855 MIDI files of 2,786 composers. The curated subset by constraining composer surnames contains 7,236 MIDI files of 1,787 composers. GiantMIDI-Piano are transcribed from live recordings with a high-resolution piano transcription system</li>
 </ul>
-</p></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-06-28</span><i class="fa fa-tag"></i><a class="tag" href="/tags/Research-MIR/" title="Research, MIR">Research, MIR </a><span class="leancloud_visitors"></span><span>About 1097 words, 3 min 39 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/06/14/tinithoughts/">tinithoughts</a></h3></div><div class="post-content"><div class="card"><p><p>一个人活着的意义是什么？</p>
+<h1 id="Week-2"><a href="#Week-2" class="headerlink" title="Week 2"></a>Week 2</h1><h2 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h2><h3 id="Reading-MUSICCOMPOSITION-WITHDEEPLEARNING-A-REVIEW"><a href="#Reading-MUSICCOMPOSITION-WITHDEEPLEARNING-A-REVIEW" class="headerlink" title="Reading MUSICCOMPOSITION WITHDEEPLEARNING: A REVIEW"></a>Reading MUSICCOMPOSITION WITHDEEPLEARNING: A REVIEW</h3><p>Music composition requires creativity which is the uniquehuman capacity to understand and produce an indefinitely large number of sentences in a language, most of which havenever been encountered or spoken before. This is a very important aspect that needs to be taken into account whendesigning or proposing an AI-based music composition algorithm</p>
+</p></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-06-28</span><i class="fa fa-tag"></i><a class="tag" href="/tags/Research-MIR/" title="Research, MIR">Research, MIR </a><span class="leancloud_visitors"></span><span>About 1156 words, 3 min 51 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/06/14/tinithoughts/">tinithoughts</a></h3></div><div class="post-content"><div class="card"><p><p>一个人活着的意义是什么？</p>
 <p>我给自己提出这个问题，稍作思考后我给出这样的正经回答：一个人活着的意义在于与世界产生的种种联系。我作为一个个体，能够参与到社会演进的过程中，世界因为我的存在而不同，这就是我活着的意义。<br>但有意义只是一个基础的属性。就好像沙滩上满是贝壳，也有珍珠，贝壳有意义，但路过的人并不都会去拣。<br>现实社会里，人并不都会将自己活着的意义像如上回答一样定义得理想而无害，包括我自己。在懵懂的幼年，穿着开裆裤玩泥巴的年纪，我忙碌于迎接世界的新奇、善意与挑战，我不会思考自己存在的意义，我只会给出面向外界的判断：这个树上的果子很香，我喜欢这个果子的气味；和小A玩的很开心，我喜欢和小A见面。</p>
 <p>当开始进入幼儿园，和更多的小朋友坐在一起，我开始有了辨识自我的意识。我发现，我喜欢吃黄瓜，但小B不喜欢；我能在滑梯上上蹿下跳，但小C不行。基于个人面对世界的好恶态度，我建立起最初的<strong>第一维的个人价值</strong>。同时，当某次活动我得到了sticker，某一个科目里我开始展现实力，某一个老师笑呵呵的对我说你真棒，我开始觉得自己与众不同，也就开始建立起对<strong>第二维自我价值</strong>的初步认知：我在一些事情上做的好、做的出众，我很棒。但就算是我没有做好一件事，或是被批评，我也不会在意，只要哭一鼻子就会忘记所有烦恼，我相信这是所有孩子都有的魔法。</p>
 <p>进入小学，也正式进入学生时代，学业变成了一条通用的赛道。周期更新的排名进一步巩固了我对于自我价值的第二维认知，并且在上面添加了一点现实的、稍显无情的“比较”。我取得了靠前的名次，说明我在学习上的努力或天赋是出众的，我很棒。倘若有个邻居阿姨做客说出了“你家孩子真优秀，再看看我家的，不好好学习！”这样的话，我会害羞着偷偷开心，默认地接受了这样一份基于成绩，却针对完整个体的认可。那时候的我，并不会思考区分“你家孩子真优秀”和“你家孩子成绩真好”之间的区别。</p>
@@ -198,16 +362,16 @@
 </ul>
 <h3 id="THU-脑科学-王小勤"><a href="#THU-脑科学-王小勤" class="headerlink" title="THU 脑科学 王小勤"></a>THU 脑科学 王小勤</h3><ul>
 <li>注意研究方向：研究听觉的神经机制和神经美学</li>
-<li>联系方式 <a href="mailto:&#x78;&#x69;&#97;&#111;&#113;&#x69;&#x6e;&#x77;&#x61;&#x6e;&#103;&#64;&#116;&#115;&#x69;&#110;&#x67;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#x2e;&#99;&#x6e;">&#x78;&#x69;&#97;&#111;&#113;&#x69;&#x6e;&#x77;&#x61;&#x6e;&#103;&#64;&#116;&#115;&#x69;&#110;&#x67;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#x2e;&#99;&#x6e;</a></li>
+<li>联系方式 <a href="mailto:&#120;&#x69;&#97;&#111;&#113;&#x69;&#x6e;&#119;&#97;&#x6e;&#103;&#64;&#116;&#x73;&#x69;&#x6e;&#x67;&#x68;&#x75;&#97;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#x6e;">&#120;&#x69;&#97;&#111;&#113;&#x69;&#x6e;&#119;&#97;&#x6e;&#103;&#64;&#116;&#x73;&#x69;&#x6e;&#x67;&#x68;&#x75;&#97;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#x6e;</a></li>
 </ul>
 <h3 id="THU-自动化系-戴琼海院士"><a href="#THU-自动化系-戴琼海院士" class="headerlink" title="THU 自动化系 戴琼海院士"></a>THU 自动化系 戴琼海院士</h3><ul>
-<li>联系方式 <a href="mailto:&#x71;&#x68;&#x64;&#x61;&#x69;&#64;&#x74;&#x73;&#105;&#110;&#x67;&#104;&#x75;&#97;&#46;&#101;&#x64;&#x75;&#x2e;&#x63;&#110;">&#x71;&#x68;&#x64;&#x61;&#x69;&#64;&#x74;&#x73;&#105;&#110;&#x67;&#104;&#x75;&#97;&#46;&#101;&#x64;&#x75;&#x2e;&#x63;&#110;</a></li>
+<li>联系方式 <a href="mailto:&#113;&#104;&#100;&#x61;&#105;&#x40;&#116;&#115;&#x69;&#110;&#103;&#104;&#117;&#97;&#46;&#x65;&#100;&#117;&#46;&#x63;&#x6e;">&#113;&#104;&#100;&#x61;&#105;&#x40;&#116;&#115;&#x69;&#110;&#103;&#104;&#117;&#97;&#46;&#x65;&#100;&#117;&#46;&#x63;&#x6e;</a></li>
 </ul>
 <h3 id="THU-自动化系-管晓宏院士"><a href="#THU-自动化系-管晓宏院士" class="headerlink" title="THU 自动化系 管晓宏院士"></a>THU 自动化系 管晓宏院士</h3><ul>
-<li>联系方式 <a href="mailto:&#x78;&#104;&#103;&#x75;&#97;&#110;&#64;&#116;&#x73;&#x69;&#110;&#103;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#x75;&#x2e;&#99;&#110;">&#x78;&#104;&#103;&#x75;&#97;&#110;&#64;&#116;&#x73;&#x69;&#110;&#103;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#x75;&#x2e;&#99;&#110;</a></li>
+<li>联系方式 <a href="mailto:&#120;&#104;&#x67;&#x75;&#97;&#x6e;&#x40;&#x74;&#x73;&#105;&#x6e;&#103;&#x68;&#x75;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#110;">&#120;&#104;&#x67;&#x75;&#97;&#x6e;&#x40;&#x74;&#x73;&#105;&#x6e;&#103;&#x68;&#x75;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#110;</a></li>
 </ul>
 <h3 id="THU-计算机系-孙茂松教授"><a href="#THU-计算机系-孙茂松教授" class="headerlink" title="THU 计算机系 孙茂松教授"></a>THU 计算机系 孙茂松教授</h3><ul>
-<li>联系方式 <a href="mailto:&#x73;&#x6d;&#x73;&#64;&#116;&#x73;&#x69;&#110;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;">&#x73;&#x6d;&#x73;&#64;&#116;&#x73;&#x69;&#110;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;</a></li>
+<li>联系方式 <a href="mailto:&#x73;&#x6d;&#x73;&#x40;&#116;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#46;&#x65;&#100;&#x75;&#46;&#99;&#110;">&#x73;&#x6d;&#x73;&#x40;&#116;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#46;&#x65;&#100;&#x75;&#46;&#99;&#110;</a></li>
 </ul>
 <h3 id="FDU-李伟教授"><a href="#FDU-李伟教授" class="headerlink" title="FDU 李伟教授"></a>FDU 李伟教授</h3><ul>
 <li><p>招收硕士*2， 博士*0;</p>
@@ -215,7 +379,15 @@
 <li><p>复旦夏令营见summerCamp贴</p>
 </li>
 </ul>
-</p></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-06-03</span><i class="fa fa-tag"></i><a class="tag" href="/tags/MIR/" title="MIR">MIR </a><span class="leancloud_visitors"></span><span>About 206 words, 41 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/06/02/SummerCamp/">SummerCamp</a></h3></div><div class="post-content"><div class="card"><p><h2 id="中国科学院自动化研究所-CASIA"><a href="#中国科学院自动化研究所-CASIA" class="headerlink" title="中国科学院自动化研究所 CASIA"></a><a target="_blank" rel="noopener" href="http://www.ia.cas.cn/yjsjy/zs/sszs/202306/t20230601_6766442.html">中国科学院自动化研究所 CASIA</a></h2><ul>
+<hr>
+<h2 id="Music-Generation"><a href="#Music-Generation" class="headerlink" title="Music Generation"></a>Music Generation</h2><ul>
+<li>方法</li>
+<li>模型体量，训练时间有效</li>
+<li>数据</li>
+<li>实验室组织</li>
+<li></li>
+</ul>
+</p></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-06-03</span><i class="fa fa-tag"></i><a class="tag" href="/tags/MIR/" title="MIR">MIR </a><span class="leancloud_visitors"></span><span>About 226 words, 45 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/06/02/SummerCamp/">SummerCamp</a></h3></div><div class="post-content"><div class="card"><p><h2 id="中国科学院自动化研究所-CASIA"><a href="#中国科学院自动化研究所-CASIA" class="headerlink" title="中国科学院自动化研究所 CASIA"></a><a target="_blank" rel="noopener" href="http://www.ia.cas.cn/yjsjy/zs/sszs/202306/t20230601_6766442.html">中国科学院自动化研究所 CASIA</a></h2><ul>
 <li>日期： 7月上中旬具体未定</li>
 <li>报名截止日期： 2023&#x2F;6&#x2F;20</li>
 <li>需主动联系感兴趣的老师</li>

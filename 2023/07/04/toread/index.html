@@ -1,0 +1,177 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Colin"><title>toread · Colin's Page</title><meta name="description" content="进度总结当前music相关的研究方向
+Generation 生成相关
+结合文本生成音乐： MusicLM
+
+根据情感、速度、调式的要求生成音乐（大量商业化软件）
+
+Amper music
+
+AIVA
+
+Soundraw
+
+MuseNet
+
+Jukebox（可以生成singing)
+特点：生成midi"><meta name="keywords" content="Blog,博客,Hexo"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.webp"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/insight.css"><link rel="stylesheet" href="/css/search.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="/js/jquery.js"></script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div class="page-top animated fadeInDown"><div class="nav"><li> <a href="/">Home</a></li><li> <a href="/archives">Archives</a></li><li> <a href="/tags">Tags</a></li><li> <a href="/about">About</a></li><li> <a href="/links">Links</a></li></div><div class="information"><div class="nav_right_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li><li><a class="fa fa-search" onclick="openWindow();"></a></li></div><div class="avatar"><img src="/images/logo.webp"></div></div></div><div class="sidebar animated fadeInDown"><div class="sidebar-top"><div class="logo-title"><div class="title"><img src="/images/logo@2x.webp" style="width:220px;" alt="favicon"><h3 title=""><a href="/">Colin's Page</a></h3><div class="description"><p>A place to record techniques and thoughts</p></div></div><ul class="social-links"><li><a target="_blank" rel="noopener" href="https://github.com/liu-ya20"><i class="fa fa-github"></i></a></li><li><a href="mailto:liu-ya20@mails.tsinghua.edu.cn"><i class="fa fa-envelope"></i></a></li></ul></div></div><div class="footer"><div class="p"> <span> 全站CC-BY-SA-3.0 </span><i class="fa fa-star"></i><span> Colin</span></div><div class="by_farbox"><span>Powered by </span><a href="https://hexo.io/zh-cn/" target="_blank">Hexo </a><span> & </span><span>Anatolo </span></div><div class="beian"></div></div></div><div class="main"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h3><a>toread</a></h3></div><div class="post-content"><p><h2 id="进度总结"><a href="#进度总结" class="headerlink" title="进度总结"></a>进度总结</h2><h3 id="当前music相关的研究方向"><a href="#当前music相关的研究方向" class="headerlink" title="当前music相关的研究方向"></a>当前music相关的研究方向</h3><ul>
+<li><h4 id="Generation-生成相关"><a href="#Generation-生成相关" class="headerlink" title="Generation 生成相关"></a>Generation 生成相关</h4><ul>
+<li><p>结合文本生成音乐： MusicLM</p>
+</li>
+<li><p>根据情感、速度、调式的要求生成音乐（大量商业化软件）</p>
+<ul>
+<li><p>Amper music</p>
+</li>
+<li><p>AIVA</p>
+</li>
+<li><p>Soundraw</p>
+</li>
+<li><p>MuseNet</p>
+</li>
+<li><p>Jukebox（可以生成singing)</p>
+<p>特点：生成midi格式辅助创作</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h4 id="音乐信息检索相关"><a href="#音乐信息检索相关" class="headerlink" title="音乐信息检索相关"></a>音乐信息检索相关</h4><ul>
+<li>对节拍、乐曲行进速度、乐曲风格等音乐的元数据进行估计&#x2F;分类</li>
+<li>音频指纹技术，利用片段查询音乐</li>
+<li>模式匹配和检测，如检测复调乐曲中的重复模式</li>
+</ul>
+</li>
+</ul>
+<h2 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h2><ul>
+<li><h4 id="Generation方向（数据集多为midi格式-总量小）"><a href="#Generation方向（数据集多为midi格式-总量小）" class="headerlink" title="Generation方向（数据集多为midi格式, 总量小）"></a>Generation方向（数据集多为midi格式, 总量小）</h4><ul>
+<li>[Lakh](<a target="_blank" rel="noopener" href="https://colinraffel.com/projects/lmd/%EF%BC%89">https://colinraffel.com/projects/lmd/）</a></li>
+<li>Nottingham Database</li>
+<li>ADL PianoMiDi</li>
+<li>GiantMiDi-Piano</li>
+</ul>
+</li>
+<li><h4 id="音乐信息检索-数据多为音频格式（-csv-，总量大"><a href="#音乐信息检索-数据多为音频格式（-csv-，总量大" class="headerlink" title="音乐信息检索(数据多为音频格式（.csv)，总量大)"></a>音乐信息检索(数据多为音频格式（.csv)，总量大)</h4><ul>
+<li><a target="_blank" rel="noopener" href="http://millionsongdataset.com/">Million Song Dataset</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification">GTZAN Dataset</a></li>
+<li><a target="_blank" rel="noopener" href="http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html">Ballroom</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/mdeff/fma">Free Music Archive(FMA)</a></li>
+<li><a target="_blank" rel="noopener" href="https://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset">MagnaTagATune</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="阅读论文"><a href="#阅读论文" class="headerlink" title="阅读论文"></a>阅读论文</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2108.12290.pdf">MUSIC COMPOSITION WITH DEEP LEARNING: A REVIEW</a></p>
+<ul>
+<li><p>音乐创作由基于算法规则的创作在21世纪转向基于深度学习的创作</p>
+<ul>
+<li>algorithmic composition方法<ul>
+<li>马尔科夫模型</li>
+<li>生成式语法</li>
+<li>元胞自动机</li>
+<li>遗传算法</li>
+<li>转移网络</li>
+</ul>
+</li>
+<li>DL方法<ul>
+<li>transformer</li>
+<li>Variational AutoEncoders(MusicVAE)</li>
+<li>生成式对抗模型GAN</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>音乐创作的元素和结构</p>
+<ul>
+<li>音符(note) to 动机(motif) to 乐句(phrase) to 旋律(melody) to 主题(theme)</li>
+<li>规则<ul>
+<li>多乐器多声部：需要和声和谐（harmony)</li>
+<li>速度一致</li>
+<li>调式一致</li>
+</ul>
+</li>
+<li>配器之间的和谐：orchestration</li>
+</ul>
+</li>
+<li><p>DL 方法创作发展：</p>
+<ul>
+<li>2016：RNN, 生成短旋律</li>
+<li>2017：DeepBach 生成四声部赞美诗</li>
+<li>2018： MusicVAE: 主旋律+贝斯+鼓点，（训练于Lakh)<ul>
+<li>Music Transformer 、 MuseNet（2019）, 由于引入注意力机制，生成更长的旋律序列</li>
+</ul>
+</li>
+<li>2020-2021：TransformerVAE、PianoTree、 DDPMs(Denoising Diffusion Probabilistic Models)based models</li>
+</ul>
+</li>
+<li><p>和声创作方向：</p>
+<ul>
+<li>MSMICA(2020): 生成多声部和声</li>
+</ul>
+</li>
+<li><p>基于给定片段or动机创作：</p>
+</li>
+<li><p>全流程创作：ChordAL</p>
+</li>
+<li><p>模型评估（音乐方向）</p>
+<p>评估方法大体分为：音高相关、节奏相关、和声相关、风格转移相关。与音高相关的指标[67]，如音阶一致性、垃圾音调、空条的比率或使用的音高类别的数量，是衡量音高属性的一般指标。与节奏相关的指标考虑了音符的持续时间或模式，例如节奏变化、并发三个或四个音符的数量或重复音高的持续时间。与和声相关的指标测量和弦熵、距离或覆盖范围。这三个指标类别被MuseGAN [62]，C-RNN-GAN [70]或JazzGAN [49]等模型使用。</p>
+</li>
+</ul>
+</li>
+<li><p><a href>A systematic review of artificial intelligence-based music generation: Scope, applications, and future trends</a></p>
+</li>
+<li><p>THE POWER OF DEEP WITHOUT GOING DEEP? A STUDY OF HDPGMM MUSIC REPRESENTATION LEARNING</p>
+<ul>
+<li><p>HDPGMM模型（hierarchical Dirichlet Process Gaussian Mixture Model), 应用于音乐信息检索的子问题中，如分类、打标签、推荐算法</p>
+</li>
+<li><p>分层DP（HDP）是DP的扩展，通过将源自语料库级DP的组级DP强加为全局组件池来对分组进行建模</p>
+</li>
+<li><p>使用Million Song Dataset进行representation learning, 对于三个子任务分别使用不同数据集学习the evaluation of the representation</p>
+</li>
+<li><p>评估方法：</p>
+<ul>
+<li><p>Normalized Discounted Cumulative Gain（nDCG) 在推荐任务上</p>
+</li>
+<li><p>F1 Score 在分类任务上</p>
+</li>
+<li><p>[AUROC](<a target="_blank" rel="noopener" href="http://wkunblog.com/2021/10/20/%E4%BA%8C%E5%88%86%E7%B1%BB%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87AUROC-AUPRC/">二分类评价指标AUROC&#x2F;AUPRC | Kevin’s Blog (wkunblog.com)</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="论文list"><a href="#论文list" class="headerlink" title="论文list"></a>论文list</h3><ul>
+<li><p>[POP MUSIC GENERATION WITH CONTROLLABLE PHRASE LENGTHS](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_322.html">ISMIR 2022: Pop Music Generation with Controllable Phrase Lengths</a>)</p>
+</li>
+<li><p>[Exploiting Pre-trained Feature Networks for Generative Adversarial Networks in Audio-domain Loop Generation](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_169.html">ISMIR 2022: Exploiting Pre-trained Feature Networks for Generative Adversarial Networks in Audio-domain Loop Generation</a>)</p>
+</li>
+<li><p>[Modeling the rhythm from lyrics for melody generation of pop songs](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_306.html">ISMIR 2022: Modeling the rhythm from lyrics for melody generation of pop songs</a>)</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2301.11325">MusicLM: Generating Music From Text</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2005.00341">Jukebox: A Generative Model for Music</a></p>
+</li>
+<li><p>[Symbolic Music Loop Generation with Neural Discrete Representations](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_66.html">ISMIR 2022: Symbolic Music Loop Generation with Neural Discrete Representations</a>)</p>
+</li>
+<li><p>[Jukedrummer: Conditional Beat-aware Audio-domain Drum Accompaniment Generation via Transformer VQ-VAE](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_164.html">ISMIR 2022: Jukedrummer: Conditional Beat-aware Audio-domain Drum Accompaniment Generation via Transformer VQ-VAE</a>)</p>
+</li>
+<li><p>[Domain Adversarial Training on Conditional Variational Auto-Encoder for Controllable Music Generation](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/poster_73.html">ISMIR 2022: Domain Adversarial Training on Conditional Variational Auto-Encoder for Controllable Music Generation</a>)</p>
+</li>
+<li><p>[What is missing in deep music generation? A study of repetition and structure in popular music](<a target="_blank" rel="noopener" href="https://ismir2022program.ismir.net/papers.html?filter=titles&search=Generation">ISMIR 2022: Papers</a>)</p>
+</li>
+<li><p>[AccoMontage: Accompaniment Arrangement via Phrase Selection and Style Transfer](<a target="_blank" rel="noopener" href="https://ismir2021.ismir.net/papers/">Accepted Papers | ISMIR 2021</a>)</p>
+</li>
+<li><p>[Symphony Generation with Permutation Invariant Language Model]([<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2205.05448">2205.05448] Symphony Generation with Permutation Invariant Language Model (arxiv.org)</a>)</p>
+</li>
+</ul>
+<hr>
+<h2 id="survey-过程梳理"><a href="#survey-过程梳理" class="headerlink" title="survey 过程梳理"></a>survey 过程梳理</h2><h4 id="读综述博客了解研究发展水平"><a href="#读综述博客了解研究发展水平" class="headerlink" title="读综述博客了解研究发展水平"></a>读综述博客了解研究发展水平</h4><ul>
+<li>2020年底：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/392893704">【中英对照】Representation Learning for Controllable Music Generation: A Survey 用于可控音乐生成的表示学习方法：综述 - 知乎 (zhihu.com)</a></li>
+</ul>
+<h4 id="整理进行相关研究的实验室，以及实验室动态、tutorial"><a href="#整理进行相关研究的实验室，以及实验室动态、tutorial" class="headerlink" title="整理进行相关研究的实验室，以及实验室动态、tutorial"></a>整理进行相关研究的实验室，以及实验室动态、tutorial</h4><ul>
+<li>C4DM</li>
+</ul>
+<h4 id="通览论文，找到使用什么方法解决了什么问题，仍然存在什么问题"><a href="#通览论文，找到使用什么方法解决了什么问题，仍然存在什么问题" class="headerlink" title="通览论文，找到使用什么方法解决了什么问题，仍然存在什么问题"></a>通览论文，找到使用什么方法解决了什么问题，仍然存在什么问题</h4></p><div class="tip">本文采用CC-BY-SA-3.0协议，转载请注明出处<br>Author: Colin</div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-07-04</span><i class="fa fa-tag"></i><a class="tag" href="/tags/MIR/" title="MIR">MIR </a><span class="leancloud_visitors"></span><span>About 1147 words, 3 min 49 sec  read</span></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="" onclick="javascript:join_favorite()" ref="sidebar"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=,http://liu-ya20.github.io/2023/07/04/toread/,Colin's Page,toread,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="next pagbuttons"><a class="btn" role="navigation" href="/2023/06/30/CodingOJ/" title="CodingOJ">Next</a></li></ul></div><script src="/js/visitors.js"></script></div></div></div></div><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/add-bookmark.js"></script><script>(function(window){var INSIGHT_CONFIG={TRANSLATION:{POSTS:"Posts",PAGES:"Pages",CATEGORIES:"Categories",TAGS:"Tags",UNTITLED:"(Untitled)",},CONTENT_URL:"/content.json",};window.INSIGHT_CONFIG=INSIGHT_CONFIG})(window);</script><script src="/js/insight.js" defer></script><div class="searchbox ins-search"><div class="searchbox-container ins-search-container"><div class="searchbox-input-wrapper"><input class="searchbox-input ins-search-input" type="text" placeholder="Search..."><span class="searchbox-close"><a class="fa fa-times-circle" onclick="closeWindow();"></a></span></div><div class="searchbox-result-wrapper ins-section-wrapper"><div class="ins-section-container"><p>Seraching...</p></div></div></div></div></body></html>
